@@ -31,7 +31,7 @@ Jakákoli změna stačí commitnout a pushnout — Pages se do ~1 minuty přebui
 Použité zástupné (placeholder) údaje jsou schválně nápadné, aby se nedaly přehlédnout:
 
 - **Telefon / e-mail**: `+420 123 456 789` a `info@gogoklima.cz` — nahradit skutečnými kontakty. Vyskytují se na více místech: hlavička, hero, kontaktní pruh, patička, `llms.txt` a strukturovaná data (JSON-LD) v `<head>` souboru `index.html`.
-- **Adresa, IČO, DIČ**: v patičce (`footer .footer-legal`) — označeno `[doplnit]`. Záměrně nejsou (ani jako placeholder) ve strukturovaných datech (JSON-LD) — vyplněné fiktivní IČO/DIČ by mohlo být vyhledávači/AI nástroji vzato jako reálný údaj.
+- **Adresa, IČO, DIČ**: v patičce (`footer .footer-legal`) — označeno `[doplnit]`. Ve strukturovaných datech (JSON-LD) je zatím jen přibližná adresa na úrovni města (Benešov, Středočeský kraj, bez ulice a PSČ) — přesnou adresu doplnit do `address` v `index.html`, pokud ji chcete zveřejnit. IČO/DIČ do JSON-LD záměrně nepatří jako placeholder — fiktivní hodnota by mohla být vyhledávači/AI nástroji vzata jako reálný údaj.
 - **Reference/recenze**: sekce „Co říkají spokojení zákazníci“ obsahuje ukázkové (nikoliv reálné) recenze — nahradit skutečnými hodnoceními od zákazníků.
 - **Fotografie**: aktuálně se používá jedna reálná fotka z podkladů (`assets/img/instalace-venkovni-jednotka.jpg`) na třech místech. Doporučuji doplnit další reálné fotky realizací (referenční sekce, sekce "Proč klima od nás") pro větší důvěryhodnost.
 - **Oblast působnosti**: „Praha a Střední Čechy“ + města Praha/Kladno/Beroun/Mělník v sekci „Kde působím“ — upravit dle skutečnosti. Stejně tak `areaServed` v JSON-LD a text v `llms.txt`.
