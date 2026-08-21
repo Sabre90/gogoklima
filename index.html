@@ -29,11 +29,15 @@
   "@type": "HVACBusiness",
   "name": "GogoKlima",
   "description": "Montáž a servis klimatizací, tepelných čerpadel a vytápění pro domácnosti i firmy.",
+  "slogan": "Komfortní klima po celý rok",
   "url": "https://sabre90.github.io/gogoklima/",
   "logo": "https://sabre90.github.io/gogoklima/assets/logo/logo-icon.svg",
   "image": "https://sabre90.github.io/gogoklima/assets/img/og-image.png",
   "telephone": "+420123456789",
   "email": "info@gogoklima.cz",
+  "naics": "238220",
+  "knowsLanguage": "cs",
+  "currenciesAccepted": "CZK",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Benešov",
@@ -45,6 +49,14 @@
     { "@type": "AdministrativeArea", "name": "Středočeský kraj" },
     { "@type": "City", "name": "Benešov" }
   ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+420123456789",
+    "email": "info@gogoklima.cz",
+    "areaServed": "CZ",
+    "availableLanguage": ["Czech"]
+  },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -52,9 +64,9 @@
     "closes": "16:00"
   },
   "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chlazení a klimatizace" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Topení a vytápění" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Servis a údržba klimatizací" } }
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chlazení a klimatizace", "serviceType": "Montáž a instalace klimatizačních jednotek", "areaServed": "Praha a Středočeský kraj" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Topení a vytápění", "serviceType": "Montáž systémů vytápění a tepelných čerpadel", "areaServed": "Praha a Středočeský kraj" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Servis a údržba klimatizací", "serviceType": "Servis, čištění a diagnostika klimatizací", "areaServed": "Praha a Středočeský kraj" } }
   ]
 }
 </script>
