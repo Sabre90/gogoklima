@@ -42,7 +42,7 @@ Použité zástupné (placeholder) údaje jsou schválně nápadné, aby se neda
 - `robots.txt` — povoluje všem crawlerům včetně AI (GPTBot, ClaudeBot, PerplexityBot…).
 - `sitemap.xml` — mapa stránky.
 - `llms.txt` — strukturované shrnutí firmy pro LLM nástroje (konvence [llmstxt.org](https://llmstxt.org)).
-- JSON-LD (`schema.org/HVACBusiness`) v `<head>` — strukturovaná data pro Google i AI asistenty.
+- JSON-LD (`schema.org/HVACBusiness`) v `<head>` — strukturovaná data pro Google i AI asistenty. Obsahuje pole `dateModified` — při každé obsahové změně webu ho aktualizujte na aktuální datum, je to signál aktuálnosti pro vyhledávače i AI nástroje.
 - Open Graph + Twitter card meta tagy vč. vlastního náhledového obrázku (`assets/img/og-image.png`).
 - Fonty jsou self-hostované (`assets/fonts/`), web nedělá žádné externí síťové požadavky — rychlejší načtení a bez přenosu IP adresy návštěvníka třetí straně (Google Fonts).
 

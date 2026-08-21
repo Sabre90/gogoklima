@@ -1,4 +1,34 @@
-# GogoKlima — všem crawlerům (vyhledávače i AI asistenti) je obsah otevřený.
+# GogoKlima — obsah je otevřený všem crawlerům (vyhledávače i AI asistenti).
+# Wildcard pravidlo níže už povoluje úplně všechno, takže tyhle jmenovité
+# záznamy jsou funkčně zbytečné — jsou tu jen jako explicitní, čitelná
+# dokumentace záměru pro člověka i pro provozovatele daného bota.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 User-agent: *
 Allow: /
 
