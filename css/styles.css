@@ -203,7 +203,7 @@ h3 { font-size: 1.2rem; }
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  width: 42px; height: 42px;
+  width: 44px; height: 44px;
   border-radius: 10px;
   border: 1px solid var(--line);
   background: #fff;
@@ -403,7 +403,8 @@ h3 { font-size: 1.2rem; }
 }
 .testi-arrow:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
 .testi-dots { display: flex; gap: 8px; }
-.testi-dots button { width: 8px; height: 8px; border-radius: 50%; background: var(--line); border: none; padding: 0; transition: all .25s ease; }
+.testi-dots button { position: relative; width: 8px; height: 8px; border-radius: 50%; background: var(--line); border: none; padding: 0; transition: all .25s ease; }
+.testi-dots button::before { content: ""; position: absolute; inset: -12px; } /* enlarges tap target to ~32px without affecting the visual dot */
 .testi-dots button.is-active { width: 22px; background: var(--red); border-radius: 999px; }
 
 /* ==========================================================================
