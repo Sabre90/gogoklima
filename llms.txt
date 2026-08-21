@@ -1,0 +1,21 @@
+# GogoKlima
+
+> Montáž a servis klimatizací, tepelných čerpadel a vytápění pro domácnosti i firmy. Působnost: Praha a Střední Čechy, dle domluvy i další regiony ČR.
+
+GogoKlima je klimatizační a topenářská firma. Hlavní nabízené služby:
+
+- **Chlazení a klimatizace** — návrh a montáž klimatizačních jednotek na míru bytu, domu i kanceláři.
+- **Topení a vytápění** — moderní a úsporné systémy vytápění pro domy, byty i komerční prostory.
+- **Servis a údržba** — pravidelné čištění filtrů, doplnění chladiva, diagnostika a prodloužení životnosti klimatizace.
+
+Úvodní zaměření a nabídka jsou zdarma.
+
+## Kontakt
+
+- Telefon: +420 123 456 789 (Po–Pá 8:00–16:00)
+- E-mail: info@gogoklima.cz
+- Působnost: Praha a Střední Čechy (dle domluvy i další regiony ČR)
+
+## Odkazy
+
+- [Web GogoKlima](https://sabre90.github.io/gogoklima/) — služby, reference, oblast působnosti a kontakt na jedné stránce

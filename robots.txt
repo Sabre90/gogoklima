@@ -1,0 +1,5 @@
+# GogoKlima — všem crawlerům (vyhledávače i AI asistenti) je obsah otevřený.
+User-agent: *
+Allow: /
+
+Sitemap: https://sabre90.github.io/gogoklima/sitemap.xml
