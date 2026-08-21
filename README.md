@@ -31,7 +31,7 @@ Jakákoli změna stačí commitnout a pushnout — Pages se do ~1 minuty přebui
 Použité zástupné (placeholder) údaje jsou schválně nápadné, aby se nedaly přehlédnout:
 
 - **Telefon**: ✅ hotovo — `+420 608 450 430` je reálné číslo, nahrazeno na všech místech (hlavička, hero, kontaktní pruh, patička, `llms.txt`, JSON-LD).
-- **E-mail**: ✅ hotovo — `tomas@goldschmied.cz` je reálný, nahrazeno na všech místech (kontaktní pruh, patička, `llms.txt`, JSON-LD).
+- **E-mail**: `info@gogoklima.cz` — zatím placeholder, nahradit skutečným.
 - **Adresa, IČO, DIČ**: v patičce (`footer .footer-legal`) — označeno `[doplnit]`. Ve strukturovaných datech (JSON-LD) je zatím jen přibližná adresa na úrovni města (Benešov, Středočeský kraj, bez ulice a PSČ) — přesnou adresu doplnit do `address` v `index.html`, pokud ji chcete zveřejnit. IČO/DIČ do JSON-LD záměrně nepatří jako placeholder — fiktivní hodnota by mohla být vyhledávači/AI nástroji vzata jako reálný údaj.
 - **Reference/recenze**: sekce „Co říkají spokojení zákazníci“ obsahuje ukázkové (nikoliv reálné) recenze — nahradit skutečnými hodnoceními od zákazníků.
 - **Fotografie**: aktuálně se používá jedna reálná fotka z podkladů (`assets/img/instalace-venkovni-jednotka.jpg`) na třech místech. Doporučuji doplnit další reálné fotky realizací (referenční sekce, sekce "Proč klima od nás") pro větší důvěryhodnost.
