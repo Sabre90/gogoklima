@@ -18,4 +18,4 @@ GogoKlima je klimatizační a topenářská firma. Hlavní nabízené služby:
 
 ## Odkazy
 
-- [Web GogoKlima](https://sabre90.github.io/gogoklima/) — služby, reference, oblast působnosti a kontakt na jedné stránce
+- [Web GogoKlima](https://gogoklima.cz/) — služby, reference, oblast působnosti a kontakt na jedné stránce

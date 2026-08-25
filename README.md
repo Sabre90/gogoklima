@@ -15,16 +15,14 @@ a otevřít `http://localhost:8000`.
 
 ## Nasazení
 
-Aktuálně nasazeno přes GitHub Pages z této repository (větev `main`, kořen `/`):
-**https://sabre90.github.io/gogoklima/**
+Nasazeno přes GitHub Pages z této repository (větev `main`, kořen `/`), na vlastní doméně:
+**https://gogoklima.cz/**
+
+(Záložní/výchozí GitHub adresa `https://sabre90.github.io/gogoklima/` funguje dál, ale kanonická je vlastní doména — na tu jsou nastavené canonical/OG/JSON-LD odkazy.)
 
 Jakákoli změna stačí commitnout a pushnout — Pages se do ~1 minuty přebuildí automaticky, žádný build krok není potřeba.
 
-### Až bude k dispozici vlastní doména (gogoklima.cz)
-
-1. Přidat soubor `CNAME` do kořene repa s obsahem domény.
-2. Nastavit DNS (A záznamy na GitHub Pages IP, nebo CNAME na `sabre90.github.io`).
-3. Aktualizovat všechny výskyty `https://sabre90.github.io/gogoklima/` na novou doménu — jsou v `index.html` (canonical, Open Graph, JSON-LD), `robots.txt`, `sitemap.xml` a `llms.txt`.
+DNS u Active24: `gogoklima.cz` má 4× A záznam na GitHub Pages IP (`185.199.108.153`, `.109.153`, `.110.153`, `.111.153`), `www.gogoklima.cz` má CNAME na `sabre90.github.io`. Soubor `CNAME` v kořeni repa obsahuje `gogoklima.cz`.
 
 ## Co je potřeba doplnit před spuštěním ostrého webu
 
